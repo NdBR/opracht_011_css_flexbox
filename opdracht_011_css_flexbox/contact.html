@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>opdracht eerste html pagina lenie
+    </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+    <div class="container">
+        <header class="box-green">
+            <h1>Niels de Boer</h1>
+            <nav>
+                <ul class="liststyle-nav-header">
+                    <li><a href="index.html"> thuis</a></li>
+                    <li><a href="about.html"> About Niels</a></li>
+                    <li><a href="contact.html"> Contact</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>
+            <div class="box-black border-orange">
+                <form name="contact" method="POST" data-netlify="true">
+                    <p>
+                        <label for="name">Naam: <input type="text" name="name" id="name" required /></label>
+                    </p>
+                    <p>
+                        <label for="email">Email: <input type="email" name="email" id="email" /></label>
+                    </p>
+                    <p>
+                        <label for="tel">Tel: <input type="tel" name="tel" id="tel" /></label>
+                    </p>
+                    <p>
+                        <label for="age">leeftijd: <input type="number" name="age" id="age" max="200" /></label>
+                    </p>
+                    <p>
+                        <label for="datebirth">Geboortedatum: <input type="date" name="date of birth"
+                                id="datebirth" /></label>
+                    </p>
+                    <p>gender:
+                        <label for="male">man</label>
+                        <input type="radio" name="gender" id="male" value="male" />
+                        <label for="female">Vrouw</label>
+                        <input type="radio" name="gender" id="female" value="female">
+                        <label for="robot">robot</label>
+                        <input type="radio" name="gender" id="robot" value="robot">
+
+                    </p>
+                    <p>
+                        favourite cuisine:
+                        <label for="italian">Italian</label>
+                        <input type="checkbox" name="italian" id="italian" />
+                        <label for="french">French</label>
+                        <input type="checkbox" name="french" id="french" />
+                        <label for="spanish">Spanish</label>
+                        <input type="checkbox" name="spanish" id="spanish" />
+                        <label for="arabic">Arabic</label>
+                        <input type="checkbox" name="arabic" id="arabic" />
+
+                    </p>
+                    <p>
+                        <label for="color">Favoriete kleur van je schort</label>
+                        <input type="color" name="color" id="color" />
+
+                    </p>
+                    <p>
+                        <label>Biografie: <textarea rows="10" cols="30" name="biografie"></textarea></label>
+                    </p>
+                    <p>
+                        <label>upload je laatste recept: <input type="file" name="bestand van recept" /></label>
+                    </p>
+                    <p>
+                        <label>url naar je recepten website: <input type="url" name="web-adres receptensite" /></label>
+                    </p>
+                    <p>
+                        <button type="reset">Reset</button>
+                    </p>
+                    <p>
+                        <button type="submit">Verzend</button>
+                    </p>
+                </form>
+            </div>
+        </main>
+
+        <div class="clr">
+            <hr>
+            <footer>
+                <nav>
+                    <a target="_blank" href="http://www.linkedin.com/in/NdBR">bekijk mijn linked-in profiel</a>
+                </nav>
+            </footer>
+        </div>
+
+    </div>
+</body>
+
+</html>
